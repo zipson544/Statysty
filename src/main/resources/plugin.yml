@@ -1,0 +1,17 @@
+name: AnarchiaStats
+version: 1.0.0
+main: pl.anarchia.stats.StatsPlugin
+api-version: '1.21'
+softdepend: [Vault, AnarchiaKlany, GetCase]
+description: Statystyki graczy (/stats) + /klan info
+commands:
+  stats:
+    description: Pokaz statystyki
+    usage: /stats [nick]
+  statsadmin:
+    description: Dodawanie statystyk (sklep / getcase)
+    usage: /statsadmin <case|spent|earned> <nick> <ilosc>
+    permission: anarchiastats.admin
+permissions:
+  anarchiastats.admin:
+    default: op

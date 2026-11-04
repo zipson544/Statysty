@@ -1,0 +1,8 @@
+# Komendy sklepu - wydane/zarobione pieniadze (Vault) licza sie tylko gdy gracz jest "w sklepie"
+shop-commands:
+  - sklep
+shop-window-seconds: 30
+
+# Regex lapiacy komunikat getcase z czatu (bez kolorow). Grupa 1 = nick gracza.
+# Na serwerze: "Gracz ZmZwara otworzyl: ..."
+case-message-regex: 'Gracz\s+(\S+)\s+otworzy'
